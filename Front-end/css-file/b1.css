@@ -1,0 +1,98 @@
+body{
+	  /* background-color: #ccc;  */
+	padding: 50px;
+	margin: 10px auto;
+	border: 5px solid black;
+	width: 800px;
+	border-radius: 20px;
+	box-shadow: 10px 5px;
+}
+main{
+	float: left;
+}
+section{
+	width: 55%;
+	float: left;
+	margin-right:  10px;
+}
+
+ul li a{
+	text-decoration: none;
+}
+aside{
+	width: 40%;
+	float: left;
+	
+}
+
+a:hover{
+	color: red;
+
+}
+.a h1 {
+	color: green;
+	text-align: center;
+}
+.a p {
+	color: blue;
+	text-align: center;
+	font-size: 25px;
+}
+.a img {
+	float: left;
+}
+
+footer{
+	text-align: right;
+	font-style: italic;
+	clear: left;
+	
+}
+main .b{
+	border-right: 2px solid green;
+
+}
+.a h2{
+	clear: left;
+}
+p span {
+	font-weight: 900;
+	font-style: italic;
+}
+header hr{
+
+	margin-top: 20px;
+}
+aside h3{
+	color: green;
+	font-weight: 500;
+}
+#navigation ul {
+	list-style-type: none;
+	background: black;
+	text-align: center;
+	overflow: hidden;
+}
+#navigation ul li{
+	color: red;
+	float: left;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	position: relative;
+}
+#navigation ul li a{
+	color:white;
+	text-decoration: none;
+	display: block;
+}
+#navigation ul li a:hover{
+	background: blue;
+}
+##navigation ul li >.sub-navigation{
+	display: none;
+	position: absolute;
+}
+#navigation ul li:hover .sub-navigation{
+	display: block;
+}
